@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalised Bulk Mailer</title>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>Personalised Bulk Mailer</h1>
+    <form
+      action="/send"
+      method="post"
+      id="message-form"
+      enctype="multipart/form-data"
+    >
+      <label for="file">Upload CSV File</label>
+      <input type="file" name="file" id="file" accept="text/csv" />
+      <label for="subject">Subject</label>
+      <input type="text" />
+      <label for="message">Message</label><br />
+      <textarea name="message" id="message" rows="5" required></textarea><br />
+      <button type="submit">SUBMIT</button>
+    </form>
+  </body>
+</html>
