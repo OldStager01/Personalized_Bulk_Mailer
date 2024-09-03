@@ -17,12 +17,12 @@ To install and run the Personalized Bulk Mailer, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/personalized-bulk-mailer.git
+    git clone https://github.com/OldStager01/Personalized_Bulk_Mailer.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd personalized-bulk-mailer
+    cd Personalized_Bulk_Mailer
     ```
 
 3. Install the required dependencies:
